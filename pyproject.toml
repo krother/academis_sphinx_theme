@@ -1,0 +1,40 @@
+[build-system]
+requires = ["flit_core>=3.7"]
+build-backend = "flit_core.buildapi"
+
+# project metadata
+[project]
+name = "academis_sphinx_theme"
+description = "A configurable sidebar-enabled Sphinx theme"
+readme = "README.md"
+license.text = "MIT"
+requires-python = ">=3.9"
+
+# Classifiers list: https://pypi.org/classifiers/
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Topic :: Documentation",
+    "Topic :: Software Development :: Documentation",
+]
+dependencies = []
+dynamic = ["version"]
+
+[[project.authors]]
+name = "Kristian Rother"
+email = "kristian.rother@posteo.de"
+
+[[project.maintainers]]
+name = "Kristian Rother"
+
+[project.entry-points."sphinx.html_themes"]
+academis_sphinx_theme = 'academis_sphinx_theme'
