@@ -2,3 +2,4 @@ sphinx
 sphinx_design
 sphinx_copybutton
 myst_parser
+furo

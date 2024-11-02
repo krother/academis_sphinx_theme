@@ -5,10 +5,10 @@ build-backend = "flit_core.buildapi"
 # project metadata
 [project]
 name = "academis_sphinx_theme"
-description = "A configurable sidebar-enabled Sphinx theme"
+description = "A furo Sphinx theme with Academis banner on top"
 readme = "README.md"
 license.text = "MIT"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 
 # Classifiers list: https://pypi.org/classifiers/
 classifiers = [
@@ -18,7 +18,6 @@ classifiers = [
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3 :: Only",
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
